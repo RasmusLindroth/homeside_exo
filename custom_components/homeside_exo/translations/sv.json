@@ -1,0 +1,46 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "HomeSide EXO",
+        "description": "Anslut till regulatorns EXOsocket (Regin ControllerWeb / HomeSide). Ett läsbegränsat konto rekommenderas.",
+        "data": {
+          "host": "IP-adress eller värdnamn",
+          "user": "Användare",
+          "password": "Lösenord",
+          "scan_interval": "Uppdateringsintervall (sekunder)"
+        }
+      },
+      "unsupported_template": {
+        "title": "Okänd regulatormall",
+        "description": "Regulatorn kör mallen **{template}**, men integrationen är bara verifierad mot: {supported}.\n\nPunktnumren gäller per mall, så sensorerna kan visa fel värden under fel namn. Skicka för att lägga till ändå, eller stäng dialogen för att avbryta."
+      },
+      "reauth_confirm": {
+        "title": "Logga in igen",
+        "description": "Inloggningen mot {host} fungerar inte längre. Ange användare och lösenord.",
+        "data": {
+          "user": "Användare",
+          "password": "Lösenord"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Kunde inte ansluta till regulatorn.",
+      "invalid_auth": "Fel användare eller lösenord."
+    },
+    "abort": {
+      "already_configured": "Regulatorn är redan tillagd.",
+      "reauth_successful": "Inloggningen är uppdaterad."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "HomeSide EXO",
+        "data": {
+          "scan_interval": "Uppdateringsintervall (sekunder)"
+        }
+      }
+    }
+  }
+}

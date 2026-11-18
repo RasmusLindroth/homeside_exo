@@ -1,0 +1,15 @@
+{
+  "domain": "homeside_exo",
+  "name": "HomeSide EXO (Regin ControllerWeb)",
+  "codeowners": [
+    "@RasmusLindroth"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/RasmusLindroth/homeside_exo",
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/RasmusLindroth/homeside_exo/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

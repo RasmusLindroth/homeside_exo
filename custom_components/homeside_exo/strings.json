@@ -1,0 +1,46 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "HomeSide EXO",
+        "description": "Connect to the controller's EXOsocket (Regin ControllerWeb / HomeSide). A read-only account is recommended.",
+        "data": {
+          "host": "IP address or hostname",
+          "user": "User",
+          "password": "Password",
+          "scan_interval": "Update interval (seconds)"
+        }
+      },
+      "unsupported_template": {
+        "title": "Unknown controller template",
+        "description": "The controller runs template **{template}**, but this integration has only been verified against: {supported}.\n\nData point numbers are specific to each template, so sensors may show the wrong values under the wrong names. Submit to add it anyway, or close this dialog to cancel."
+      },
+      "reauth_confirm": {
+        "title": "Log in again",
+        "description": "Login to {host} no longer works. Enter user and password.",
+        "data": {
+          "user": "User",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not connect to the controller.",
+      "invalid_auth": "Wrong user or password."
+    },
+    "abort": {
+      "already_configured": "Controller is already configured.",
+      "reauth_successful": "Login updated."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "HomeSide EXO",
+        "data": {
+          "scan_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  }
+}

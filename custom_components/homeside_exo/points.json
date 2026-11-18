@@ -1,0 +1,960 @@
+{
+  "10": {
+    "label": "Varmvatten tappgivare",
+    "name": "Value_VV1_GT_TAPP_2",
+    "unit": "°C",
+    "type": "Number",
+    "device": 0
+  },
+  "84": {
+    "label": "Rum 5 temperatur",
+    "name": "Value_TEMP_RUM_5",
+    "unit": "°C",
+    "type": "Number",
+    "device": 0,
+    "enabled": false
+  },
+  "96": {
+    "label": "Rum 1 temperatur",
+    "name": "Value_TEMP_RUM_1",
+    "unit": "°C",
+    "type": "Number",
+    "device": 0,
+    "enabled": true
+  },
+  "134": {
+    "label": "Batterilarm",
+    "name": "BATTERI_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "137": {
+    "label": "Motorventil VA-MV1 manuellt läge",
+    "name": "VA_MV1_MANUAL_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "141": {
+    "label": "Systemtryck",
+    "name": "Value_GP_EXP1_1",
+    "unit": "Bar",
+    "type": "Number",
+    "device": 0
+  },
+  "158": {
+    "label": "Utegivare temperatur",
+    "name": "Value_GT_UTE",
+    "unit": "°C",
+    "type": "Number",
+    "device": 0,
+    "enabled": true
+  },
+  "179": {
+    "label": "Värmesystem pump manuellt läge",
+    "name": "VS1_P1_MANUAL_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "182": {
+    "label": "Värmesystem styrventil manuellt läge",
+    "name": "VS1_SV_1_MANUAL_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "184": {
+    "label": "Belysning manuellt läge",
+    "name": "BELYSNING_1_MANUAL_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "185": {
+    "label": "Värmesystem tilloppsgivare larm",
+    "name": "AI_VS1_GT_TILL_1_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "188": {
+    "label": "Utegivare larm",
+    "name": "AI_GT_UTE_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "190": {
+    "label": "Värmesystem returgivare larm",
+    "name": "AI_VS1_GT_RETUR_1_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "191": {
+    "label": "Varmvatten tappgivare larm",
+    "name": "AI_VV1_GT_TAPP_1_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "197": {
+    "label": "Zon 1 rumsgivare givarfel",
+    "name": "ZON1_GT_RUM_1_GIVARFEL_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "200": {
+    "label": "Zon 2 rumsgivare givarfel",
+    "name": "ZON2_GT_RUM_1_GIVARFEL_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "202": {
+    "label": "Zon 3 rumsgivare givarfel",
+    "name": "ZON3_GT_RUM_1_GIVARFEL_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "203": {
+    "label": "Zon 4 rumsgivare givarfel",
+    "name": "ZON4_GT_RUM_1_GIVARFEL_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "204": {
+    "label": "Rum 2 temperatur",
+    "name": "Value_TEMP_RUM_2",
+    "unit": "°C",
+    "type": "Number",
+    "device": 0,
+    "enabled": false
+  },
+  "226": {
+    "label": "Zon 5 rumsgivare givarfel",
+    "name": "AI_ZON5_GT_RUM_1_GIVARFEL_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "227": {
+    "label": "Rumsgivarmottagare kommunikationsfel (Modbus)",
+    "name": "RCWM_1_KOMFEL_MODBUS_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "232": {
+    "label": "Elmätare kommunikationsfel (Modbus)",
+    "name": "ELM1_KOMFEL_MODBUS_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "239": {
+    "label": "Värmemängdsmätare larm",
+    "name": "VMM1_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "245": {
+    "label": "Inbrottslarm indikering (logg)",
+    "name": "INBOTTSLARM_IND_LOGG_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "248": {
+    "label": "Värmesystem pump driftindikering",
+    "name": "VS1_P1_DRIFTIND_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "257": {
+    "label": "Inbrottslarm närvaro (logg)",
+    "name": "INBROTTSLARM_NARVARO_LOGG_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "260": {
+    "label": "Värmemängdsmätare temp",
+    "name": "Value_VMM",
+    "unit": "°C",
+    "type": "Number",
+    "device": 0
+  },
+  "265": {
+    "label": "Motorventil VA-MV1 (logg)",
+    "name": "DO_VA_MV1_LOGG_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "266": {
+    "label": "Värmesystem tillopp låg temperatur",
+    "name": "AI_VS1_GT_TILL_1_LAG_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "272": {
+    "label": "Värmesystem tillopp hög temperatur",
+    "name": "AI_VS1_GT_TILL_1_HOG_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "274": {
+    "label": "DUC-version",
+    "name": "DUC_Version",
+    "unit": "",
+    "type": "String",
+    "device": 0,
+    "category": "diagnostic"
+  },
+  "281": {
+    "label": "Expansionstryck lågt",
+    "name": "AI_GP_EXP1_1_LAG_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "283": {
+    "label": "Expansionstryck högt",
+    "name": "AI_GP_EXP1_1_HOG_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "284": {
+    "label": "Elmätare larm",
+    "name": "SC_ELM1_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "290": {
+    "label": "Värmemängdsmätare flöde larm",
+    "name": "SC_VMM1_F_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "292": {
+    "label": "Värmemängdsmätare energi (kWh) larm",
+    "name": "SC_VMM1_E_kWh_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "293": {
+    "label": "Värmesystem pump service",
+    "name": "VS1_P1_SERVICE_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "301": {
+    "label": "Zon 1 rumsgivare batteri",
+    "name": "ZON1_GT_RUM_1_BATT_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "302": {
+    "label": "Zon 2 rumsgivare batteri",
+    "name": "ZON2_GT_RUM_1_BATT_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "306": {
+    "label": "Rum 3 temperatur",
+    "name": "Value_TEMP_RUM_3",
+    "unit": "°C",
+    "type": "Number",
+    "device": 0,
+    "enabled": false
+  },
+  "310": {
+    "label": "Zon 3 rumsgivare batteri",
+    "name": "ZON3_GT_RUM_1_BATT_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "311": {
+    "label": "Fjärrvärme tilloppsgivare",
+    "name": "Value_FJV_GT",
+    "unit": "°C",
+    "type": "Number",
+    "device": 0,
+    "enabled": false
+  },
+  "319": {
+    "label": "Zon 4 rumsgivare batteri",
+    "name": "ZON4_GT_RUM_1_BATT_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "320": {
+    "label": "Zon 1 rumstemperatur låg",
+    "name": "ZON1_GT_RUM_1_LAG_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "326": {
+    "label": "Zon 2 rumstemperatur låg",
+    "name": "ZON2_GT_RUM_1_LAG_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "328": {
+    "label": "Zon 3 rumstemperatur låg",
+    "name": "ZON3_GT_RUM_1_LAG_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "332": {
+    "label": "Önskad rumstemperatur",
+    "name": "",
+    "unit": "°C",
+    "type": "Number",
+    "device": 0,
+    "enabled": true
+  },
+  "334": {
+    "label": "Zon 4 rumstemperatur låg",
+    "name": "ZON4_GT_RUM_1_LAG_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "337": {
+    "label": "Zon 5 rumstemperatur låg",
+    "name": "ZON5_GT_RUM_1_LAG_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "338": {
+    "label": "Zon 1 rumstemperatur hög",
+    "name": "ZON1_GM_RUM_1_HOG_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "340": {
+    "label": "Zon 2 rumstemperatur hög",
+    "name": "ZON2_GM_RUM_1_HOG_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "343": {
+    "label": "Zon 3 rumstemperatur hög",
+    "name": "ZON3_GM_RUM_1_HOG_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "344": {
+    "label": "Värmesystem framledning",
+    "name": "Value_VS1_GT11",
+    "unit": "°C",
+    "type": "Number",
+    "device": 0
+  },
+  "353": {
+    "label": "Zon 4 rumstemperatur hög",
+    "name": "ZON4_GM_RUM_1_HOG_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "356": {
+    "label": "Zon 1 rumsgivare radiosignal",
+    "name": "ZON1_GT_RUM_1_RSSI_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "358": {
+    "label": "Zon 2 rumsgivare radiosignal",
+    "name": "ZON2_GT_RUM_1_RSSI_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "361": {
+    "label": "Zon 3 rumsgivare radiosignal",
+    "name": "ZON3_GT_RUM_1_RSSI_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "362": {
+    "label": "Zon 4 rumsgivare radiosignal",
+    "name": "ZON4_GT_RUM_1_RSSI_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "364": {
+    "label": "Varmvatten flödesvakt (logg)",
+    "name": "VV_FLODESVAKT_LOGG_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "365": {
+    "label": "Fjärrvärme tilloppsgivare larm",
+    "name": "AI_FJV_GT_TILL_1_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "366": {
+    "label": "Fjärrvärme tillopp låg temperatur",
+    "name": "AI_FJV_GT_TILL_1_LAG_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "367": {
+    "label": "Fjärrvärme tillopp hög temperatur",
+    "name": "AI_FJV_GT_TILL_1_HOG_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "369": {
+    "label": "Varmvatten tappgivare GT41 låg",
+    "name": "HL_VV1_TAPP_GT41_LAG_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "370": {
+    "label": "Varmvatten tappgivare GT41 hög",
+    "name": "HL_VV1_TAPP_GT41_HOG_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "371": {
+    "label": "Varmvatten tappgivare 2 larm",
+    "name": "AI_VV1_GT_TAPP_2_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "373": {
+    "label": "Inbrottslarm tappad partition",
+    "name": "TAPPAD_PARTITION_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "374": {
+    "label": "Varmvatten tappning manuellt läge",
+    "name": "VV1_TAPP_MANUAL_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "375": {
+    "label": "Läckagesensor 1",
+    "name": "LACKAGESENSOR1_VLS_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "376": {
+    "label": "Läckagesensor 2",
+    "name": "LACKAGESENSOR2_VLS_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "378": {
+    "label": "Läckagesensor 3",
+    "name": "LACKAGESENSOR3_VLS_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "379": {
+    "label": "Läckagesensor 4",
+    "name": "LACKAGESENSOR4_VLS_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "380": {
+    "label": "Läckagesensor 5",
+    "name": "LACKAGESENSOR5_VLS_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "382": {
+    "label": "Läckagesensor 1 batteri",
+    "name": "LACKAGESENSOR1_VLS_BATT_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "383": {
+    "label": "Läckagesensor 2 batteri",
+    "name": "LACKAGESENSOR2_VLS_BATT_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "384": {
+    "label": "Läckagesensor 3 batteri",
+    "name": "LACKAGESENSOR3_VLS_BATT_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "385": {
+    "label": "Läckagesensor 4 batteri",
+    "name": "LACKAGESENSOR4_VLS_BATT_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "388": {
+    "label": "Läckagesensor 5 batteri",
+    "name": "LACKAGESENSOR5_VLS_BATT_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "389": {
+    "label": "Utegivare batteri",
+    "name": "GT_UTE_BATT_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "391": {
+    "label": "Utegivare radiosignal",
+    "name": "UTE_GT_RUM_1_RSSI_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "392": {
+    "label": "Läckagesensor 1 givarfel",
+    "name": "LACKAGESENSOR1_VLS_GIVARFEL_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "393": {
+    "label": "Läckagesensor 2 givarfel",
+    "name": "LACKAGESENSOR2_VLS_GIVARFEL_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "394": {
+    "label": "Läckagesensor 3 givarfel",
+    "name": "LACKAGESENSOR3_VLS_GIVARFEL_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "395": {
+    "label": "Läckagesensor 4 givarfel",
+    "name": "LACKAGESENSOR4_VLS_GIVARFEL_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "396": {
+    "label": "Läckagesensor 5 givarfel",
+    "name": "LACKAGESENSOR5_VLS_GIVARFEL_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "397": {
+    "label": "Läckagesensor 1 radiosignal",
+    "name": "LACKAGESENSOR1_VLS_RSSI_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "398": {
+    "label": "Läckagesensor 2 radiosignal",
+    "name": "LACKAGESENSOR2_VLS_RSSI_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "400": {
+    "label": "Läckagesensor 3 radiosignal",
+    "name": "LACKAGESENSOR3_VLS_RSSI_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "401": {
+    "label": "Läckagesensor 4 radiosignal",
+    "name": "LACKAGESENSOR4_VLS_RSSI_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "402": {
+    "label": "Läckagesensor 5 radiosignal",
+    "name": "LACKAGESENSOR5_VLS_RSSI_LARM_Status",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "group": "alarm",
+    "enabled": true
+  },
+  "406": {
+    "label": "Rum 1 mottagning",
+    "name": "Value_MOTTAGNING_RUM_1",
+    "unit": "dB",
+    "type": "Number",
+    "device": 0,
+    "enabled": true
+  },
+  "409": {
+    "label": "Rum 4 temperatur",
+    "name": "Value_TEMP_RUM_4",
+    "unit": "°C",
+    "type": "Number",
+    "device": 0,
+    "enabled": false
+  },
+  "415": {
+    "label": "Rum 2 mottagning",
+    "name": "Value_MOTTAGNING_RUM_2",
+    "unit": "dB",
+    "type": "Number",
+    "device": 0,
+    "enabled": false
+  },
+  "418": {
+    "label": "Utegivare status",
+    "name": "SYMBOL_GT_UTE",
+    "unit": "",
+    "type": "Boolean",
+    "device": 0,
+    "values": {
+      "False": "OK",
+      "True": "Fel"
+    }
+  },
+  "424": {
+    "label": "Rum 3 mottagning",
+    "name": "Value_MOTTAGNING_RUM_3",
+    "unit": "dB",
+    "type": "Number",
+    "device": 0,
+    "enabled": false
+  },
+  "433": {
+    "label": "Rum 4 mottagning",
+    "name": "Value_MOTTAGNING_RUM_4",
+    "unit": "dB",
+    "type": "Number",
+    "device": 0,
+    "enabled": false
+  },
+  "446": {
+    "label": "Värmesystem retur",
+    "name": "Value_VS1_GT_RETUR",
+    "unit": "°C",
+    "type": "Number",
+    "device": 0
+  },
+  "487": {
+    "label": "Varmvatten styrventil (VV1-TAPP)",
+    "name": "SYMBOL_VV1_TAPP",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "values": {
+      "0": "0%",
+      "1": "Manuell",
+      "2": "Auto"
+    }
+  },
+  "494": {
+    "label": "Fjärrvärme styrventil (FJV-SV1)",
+    "name": "SYMBOL_FJV_SV1",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "values": {
+      "0": "0%",
+      "1": "Manuell",
+      "2": "Auto"
+    }
+  },
+  "565": {
+    "label": "Värmesystem shuntventil (VS1-SV1)",
+    "name": "SYMBOL_VS1_P1_1",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "values": {
+      "0": "0%",
+      "1": "Manuell",
+      "2": "Auto"
+    }
+  },
+  "578": {
+    "label": "Varmvatten dykgivare",
+    "name": "Value_VS1_GT11_2",
+    "unit": "°C",
+    "type": "Number",
+    "device": 0
+  },
+  "589": {
+    "label": "Rum 1 aktiverad",
+    "name": "Sym_AV_PA_Rum_1",
+    "unit": "",
+    "type": "Boolean",
+    "device": 0,
+    "values": {
+      "False": "Av",
+      "True": "På"
+    },
+    "enabled": true
+  },
+  "592": {
+    "label": "Rum 2 aktiverad",
+    "name": "Sym_AV_PA_Rum_2",
+    "unit": "",
+    "type": "Boolean",
+    "device": 0,
+    "values": {
+      "False": "Av",
+      "True": "På"
+    },
+    "enabled": false
+  },
+  "595": {
+    "label": "Rum 3 aktiverad",
+    "name": "Sym_AV_PA_Rum_3",
+    "unit": "",
+    "type": "Boolean",
+    "device": 0,
+    "values": {
+      "False": "Av",
+      "True": "På"
+    },
+    "enabled": false
+  },
+  "598": {
+    "label": "Rum 4 aktiverad",
+    "name": "Sym_AV_PA_Rum_4",
+    "unit": "",
+    "type": "Boolean",
+    "device": 0,
+    "values": {
+      "False": "Av",
+      "True": "På"
+    },
+    "enabled": false
+  },
+  "601": {
+    "label": "Rum 5 aktiverad",
+    "name": "Sym_AV_PA_Rum_5",
+    "unit": "",
+    "type": "Boolean",
+    "device": 0,
+    "values": {
+      "False": "Av",
+      "True": "På"
+    },
+    "enabled": false
+  },
+  "608": {
+    "label": "Värmesystem pump (VS1-P1)",
+    "name": "SYMBOL_VS1_P1",
+    "unit": "",
+    "type": "Number",
+    "device": 0,
+    "values": {
+      "0": "Från",
+      "1": "Till",
+      "2": "Auto"
+    }
+  }
+}
